@@ -126,7 +126,7 @@ logo=("""
 ┃ ██   ██ ██   ██ ██   ██ ┃ ➍ STTUS ➸ OWN ┃
 ┃ ██████  ██   ██ ██   ██ ┃ ➎ RANKS ➸ 1.X ┃
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━╝
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 def cek_apk(session,coki):
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
 	sop = BeautifulSoup(w,"html.parser")
@@ -158,7 +158,7 @@ def Main():
 	print("\033[1;37m[3] FOLLOW MY FB PROFILE")
 	print("\033[1;37m[4] JOIN MESSENGER GROUP")
 	print('\033[1;37m[0] EXIT PROGRAMMING')
-	print(54*'━')
+	print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 	opt = input('Choose option >>> ')
 	if opt == '1':
 		os.system('xdg-open https://www.facebook.com/')
@@ -290,4 +290,4 @@ def b(uid,pwx,tl):
 
         pass
 Main()
-	
+
