@@ -157,7 +157,7 @@ def Main():
 	print("\033[1;37m[2] CONTACT ADMIN & FB GROUP")
 	print("\033[1;37m[3] FOLLOW MY FB PROFILE")
 	print("\033[1;37m[4] JOIN MESSENGER GROUP")
-	print("\033[1;37m[0] EXIT PROGRAMMING')
+	print('\033[1;37m[0] EXIT PROGRAMMING')
 	print(54*'━')
 	opt = input('Choose option >>> ')
 	if opt == '1':
