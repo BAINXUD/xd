@@ -116,9 +116,9 @@ def jalan(z):
   
 logo=("""  
  \033[1;37m
- ╔═╗╔═╗╔═╗
- ║═╣╠╦╝╠═╣
- ╚═╝╩╚═╩ ╩ 
+╔═╗╔═╗╔═╗
+║═╣╠╦╝╠═╣
+╚═╝╩╚═╩ ╩ 
 ╔━━━━━━━━━━━━━━━━━━━━━━━━━╦━━━━━━━━━━━━━━━╗
 ┃ ██████  ██████   █████  ┃ ➊ OWNER ➸ BRA ┃
 ┃ ██   ██ ██   ██ ██   ██ ┃ ➋ TOOLS ➸ BRA ┃
@@ -153,15 +153,15 @@ def cek_apk(session,coki):
 def Main():
 	os.system('clear')
 	print(logo)
-	print ("\033[1;97m[1] RANDOM CLONEING")
-	print("[\033[1;37m[2] CONTACT ADMIN & FB GROUP")
-	print("[\033[1;37m[3] FOLLOW MY FB PROFILE")
-	print("[\033[1;37m[4] JOIN MESSENGER GROUP")
-	print('[\033[1;37m[0] EXIT PROGRAMMING')
+	print("\033[1;97m[1] RANDOM CLONEING")
+	print("\033[1;37m[2] CONTACT ADMIN & FB GROUP")
+	print("\033[1;37m[3] FOLLOW MY FB PROFILE")
+	print("\033[1;37m[4] JOIN MESSENGER GROUP")
+	print("\033[1;37m[0] EXIT PROGRAMMING')
 	print(54*'━')
 	opt = input('Choose option >>> ')
 	if opt == '1':
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100080957155376')
+		os.system('xdg-open https://www.facebook.com/')
 		virusA()
 	if opt in ["B","2"]:
 		admin()
