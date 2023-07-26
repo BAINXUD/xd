@@ -116,15 +116,12 @@ def jalan(z):
   
 logo=("""  
  \033[1;37m
-                  ╔═╗╔═╗╔═╗
-                  ║═╣╠╦╝╠═╣
-                  ╚═╝╩╚═╩ ╩ 
 ╔━━━━━━━━━━━━━━━━━━━━━━━━━╦━━━━━━━━━━━━━━━╗
 ┃ ██████  ██████   █████  ┃ ➊ OWNER ➸ BRA ┃
 ┃ ██   ██ ██   ██ ██   ██ ┃ ➋ TOOLS ➸ BRA ┃
-┃ ██████  ██████  ███████ ┃ ➌ VRSON ➸ 0.1 ┃
-┃ ██   ██ ██   ██ ██   ██ ┃ ➍ STTUS ➸ OWN ┃
-┃ ██████  ██   ██ ██   ██ ┃ ➎ RANKS ➸ 1.X ┃
+┃ ██████  ██████  ███████ ┃ ➌ VRSON ➸ 0.1 ┃╔═╗╔═╗╔═╗
+┃ ██   ██ ██   ██ ██   ██ ┃ ➍ STTUS ➸ OWN ┃║═╣╠╦╝╠═╣
+┃ ██████  ██   ██ ██   ██ ┃ ➎ RANKS ➸ 1.X ┃╚═╝╩╚═╩ ╩ 
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━╝
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 def cek_apk(session,coki):
@@ -153,12 +150,12 @@ def cek_apk(session,coki):
 def Main():
 	os.system('clear')
 	print(logo)
-	print("[1] \033[1;91mRANDOM CLONING")
-	print("[2] \033[1;94mCONTACT ADMIN")
-	print("[3] \033[1;92mFOLLOW MY FB PROFILE")
-	print("[4] \033[1;93mJOIN MESSENGER GROUP")
-	print('[0] \033[1;95mEXIT PROGRAMMING')
-	print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+	print(" \033[1;37m[1] \033[1;91mRANDOM CLONING")
+	print(" \033[1;37m[2] \033[1;94mCONTACT ADMIN")
+	print(" \033[1;37m[3] \033[1;92mFOLLOW MY FB PROFILE")
+	print(" \033[1;37m[4] \033[1;93mJOIN MESSENGER GROUP")
+	print(' \033[1;37m[0] \033[1;95mEXIT PROGRAMMING')
+	print(' \033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 	opt = input('Choose option >>> ')
 	if opt == '1':
 		os.system('xdg-open https://www.facebook.com/')
