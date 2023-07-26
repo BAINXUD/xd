@@ -225,8 +225,8 @@ def BRA():
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','freefire','Free fire','iloveyou','Bangladesh','bangladesh','i love you']
 			yaari.submit(b,uid,pwx,tl)
         
-        print(' [💀] CRACK PROCESS HAS BEEN COMPLETED')
-	    print(' [🖤] IDS SAVED IN SDCARD ▶ BRA-OK.txt [OR] BRA-CP.txt')
+print(' [💀] CRACK PROCESS HAS BEEN COMPLETED')
+print(' [🖤] IDS SAVED IN SDCARD ▶ BRA-OK.txt [OR] BRA-CP.txt')
 
 	exit()
 
@@ -290,3 +290,4 @@ def b(uid,pwx,tl):
         pass
 Main()
 
+	
