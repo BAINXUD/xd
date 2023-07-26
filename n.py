@@ -216,8 +216,8 @@ def BRA():
 		tl = str(len(user))
 		
 		print('\033[32;1m┏━[\033[34;1m•\033[32;5m] COUNTRY       ► Bangladesh')
-		print('\033[32;1m┣━[\033[34;1m•\033[32;5m] SIM CODE      ►\033[1;93m {kode} ')
-		print(f'\033[32;1m┣━[\033[34;1m•\033[32;5m] TOTAL ACCOUNT ► '+tl)
+		print(f'\033[32;1m┣━[\033[34;1m•\033[32;5m] SIM CODE      ►\033[1;93m {kode} ')
+		print('\033[32;1m┣━[\033[34;1m•\033[32;5m] TOTAL ACCOUNT ► '+tl)
 		print('\033[32;1m┗━[\033[34;1m•\033[32;5m] IF NO RESULTS \033[1;93m(ON/OFF) \033[32;5mAIRPLANE MODES')
 		print('\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 		for guru in user:
@@ -290,4 +290,3 @@ def b(uid,pwx,tl):
         pass
 Main()
 
-	
