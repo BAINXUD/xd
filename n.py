@@ -154,8 +154,8 @@ def Main():
 	print("\033[1;37m[2] \033[1;94mCONTACT ADMINS")
 	print("\033[1;37m[3] \033[1;92mFOLLOW MY FB")
 	print("\033[1;37m[4] \033[1;93mJOIN MY GROUP")
-	print('\033[1;37m[0] \033[1;95mEXIT PROGRAMMING')
-	print('\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+	print("\033[1;37m[0] \033[1;95mEXIT PROGRAMMING")
+	print('\033[0;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 	opt = input('Choose option >>> ')
 	if opt in ["A","a","1"]:
 		os.system('xdg-open https://www.facebook.com/')
@@ -178,22 +178,22 @@ def Main():
 def admin():
 	os.system('clear')
 	print(logo)
-	print(50*'_')
-	print(' [1] CONTACT WA ')
-	print(' [2] JOIN MY FB ')
-	print(' [3] FOLLOW MY FB ')
-	print(' [0] Back to Main menu')
+	print(' \033[1;91m[A] CONTACT WHATSAPP ')
+	print(' \033[1;92m[B] CONTACT FACEBOOK ')
+	print(' \033[1;93m[C] CONTACT GITHUB ')
+	print(' \033[1;94m[D] BACK TO MAIN MENU ')
+	print('\033[0;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 	bal = input('Choose option >>> ')
-	if bal =='1':
+	if bal =='A','a':
 		os.system('xdg-open https://wa.me/+8801878943692');time.sleep(1)
 		admin()
-	if bal =='2':
-		os.system('xdg-open https://facebook.com//');time.sleep(1)
+	if bal =='B','b':
+		os.system('xdg-open https://facebook.com/');time.sleep(1)
 		admin()
-	if bal =='3':
+	if bal =='C','c':
 		os.system('xdg-open https://www.facebook.com/');time.sleep(1)
 		admin()
-	if bal =='0':
+	if bal =='D','d':
 		Main()
 		
 def BRA():
@@ -290,4 +290,3 @@ def b(uid,pwx,tl):
         pass
 Main()
 
-	
