@@ -184,16 +184,16 @@ def admin():
 	print(' \033[1;94m[D] BACK TO MAIN MENU ')
 	print('\033[0;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 	bal = input('Choose option >>> ')
-	if bal =='A','a':
+	if opt in ["A","a"]:
 		os.system('xdg-open https://wa.me/+8801878943692');time.sleep(1)
 		admin()
-	if bal =='B','b':
+	if opt in ["B","b"]:
 		os.system('xdg-open https://facebook.com/');time.sleep(1)
 		admin()
-	if bal =='C','c':
+	if opt in ["C","c"]:
 		os.system('xdg-open https://www.facebook.com/');time.sleep(1)
 		admin()
-	if bal =='D','d':
+	if opt in ["D","d"]:
 		Main()
 		
 def BRA():
